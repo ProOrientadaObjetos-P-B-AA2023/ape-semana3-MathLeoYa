@@ -22,6 +22,8 @@ public class Ejecutor {
         ft.establecerNumeroTelefono(numeroTelefono);
         ft.establecerMinutosMes(minutos);
         ft.establecerValorMinuto(valorMinuto);
+        ft.establecerVfac(valorMinuto);
+        ft.calcularValorFactura();
         // hasta aquí el objeto ya tiene valores para sus atributos:
         // número de telefono, número de minutos consumidos en el mes, 
         // valor de cada minuto.
@@ -30,7 +32,7 @@ public class Ejecutor {
         // consumidos en el mes, valor de cada minuto; que ya los tiene el 
         // objeto.
         
-        ft.calcularValorFactura();
+        //ft.calcularValorFactura();
         
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
